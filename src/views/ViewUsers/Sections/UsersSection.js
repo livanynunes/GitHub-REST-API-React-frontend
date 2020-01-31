@@ -27,7 +27,7 @@ export default class UsersSection extends Component{
   }
 
   componentDidMount(adr){
-    fetch(`http://localhost:8000/api/users?since=${adr===undefined?0:adr}`)
+    fetch(`https://livany-backend.herokuapp.com/api/users?since=${adr===undefined?0:adr}`)
     .then(res => res.json())
     .then(json => {
       this.setState({

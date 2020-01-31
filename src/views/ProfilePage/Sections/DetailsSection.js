@@ -36,7 +36,7 @@ export default class DetailsSection extends Component{
     // console.log(values.user);
 
     ////fazer depois
-    fetch(`http://localhost:8000/api/users/${values.user}/details`)
+    fetch(`https://livany-backend.herokuapp.com/api/users/${values.user}/details`)
     .then(res => res.json())
     .then(json => {
       this.setState({
@@ -45,7 +45,7 @@ export default class DetailsSection extends Component{
       })
     });
 
-    fetch(`http://localhost:8000/api/users/${values.user}/repos`)
+    fetch(`https://livany-backend.herokuapp.com/api/users/${values.user}/repos`)
     .then(res => res.json())
     .then(json => {
       this.setState({
