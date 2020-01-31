@@ -94,7 +94,7 @@ export default class DetailsSection extends Component{
                         <CardFooter>
                             <GridContainer>
                                 <GridItem xs={12}>
-                                    <h2>Repositórios publicos</h2>
+                                    <h2>Repositórios públicos</h2>
                                 
                                 </GridItem>
                                 <GridItem xs={12}>
