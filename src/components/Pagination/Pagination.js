@@ -55,7 +55,7 @@ Pagination.propTypes = {
       disabled: PropTypes.bool,
       text: PropTypes.oneOfType([
         PropTypes.number,
-        PropTypes.oneOf(["PREV", "NEXT", "..."])
+        PropTypes.oneOf(["FIRST", "PREV", "NEXT", "..."])
       ]).isRequired,
       onClick: PropTypes.func
     })

@@ -78,7 +78,7 @@ export default class DetailsSection extends Component{
                                     <h3>{itens.login}</h3>
                                     <h6>#{itens.id} | Criado em: {(new Date(itens.created_at)).toLocaleDateString('pt-BR', {year: 'numeric', month: '2-digit', day: '2-digit'})} </h6>
                                     
-                                    <Button color="github" href={itens.html_url} target="_blank" github>
+                                    <Button color="github" href={itens.html_url} target="_blank">
                                         <i className={" fab fa-github "}/>{" "}
                                         {itens.html_url}
                                     </Button>
